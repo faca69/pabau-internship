@@ -1,3 +1,5 @@
+"use client";
+
 import { format, Locale } from "date-fns";
 import {
   Card,
