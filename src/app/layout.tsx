@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <ApolloProvider client={apolloClient}>
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased dark flex flex-col mx-auto justify-center px-10`}
         >
           {children}
         </body>
